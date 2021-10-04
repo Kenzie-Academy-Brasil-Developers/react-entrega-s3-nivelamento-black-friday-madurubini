@@ -4,7 +4,7 @@ const Product = ({
   hasButton,
 }) => {
   return (
-    <div>
+    <div className="CardProduto">
       <p>{name}</p>
       <p>R$ {price.toFixed(2)}</p>
       <p>Desconto : %{discount}</p>

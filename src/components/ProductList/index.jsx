@@ -14,7 +14,7 @@ const ProductList = ({
   };
 
   return (
-    <div>
+    <div className="Product">
       <p>Produto escolhido</p>
       {newProduct[0] &&
         newProduct.map((item) => (
